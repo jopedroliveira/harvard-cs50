@@ -1,0 +1,26 @@
+.fa {
+  font-size: 2em;
+  &-facebook {
+    &:hover {
+      color: $facebook;
+    }
+  }
+
+  &-twitter {
+    &:hover {
+      color: $twitter;
+    }
+  }
+
+  &-linkedin {
+    &:hover {
+      color: $linkedin;
+    }
+  }
+
+  &-github {
+    &:hover {
+      color: $github;
+    }
+  }
+}
