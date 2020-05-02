@@ -28,11 +28,11 @@
   }
   &-hover {
     position: unset;
-    display: contents;
+    display: none;
   }
 
   #img-profile:hover &-hover{
-    display: block;
+    display: inline-block;
   }
   #img-profile:hover &-front{
     display: none;

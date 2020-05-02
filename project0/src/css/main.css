@@ -44,10 +44,10 @@
 }
 .img-profile-hover {
   position: unset;
-  display: contents;
+  display: none;
 }
 #img-profile:hover .img-profile-hover {
-  display: block;
+  display: inline-block;
 }
 #img-profile:hover .img-profile-front {
   display: none;
