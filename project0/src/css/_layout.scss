@@ -1,0 +1,49 @@
+/************ Overall *************/
+.badge {
+  font-weight: normal;
+  padding: 3px 10px;
+  &-info{
+    background-color: $accent;
+  }
+}
+
+/*********** About Page ***********/
+#img-col {
+  align-items: left;
+  justify-content: center;
+}
+
+#img-profile {
+  width: fit-content;
+  margin-left: 5em;
+  img {
+    width: 250px;
+  }
+}
+
+.img-profile {
+  &-front {
+    position: unset;
+    display: block;
+  }
+  &-hover {
+    position: unset;
+    display: contents;
+  }
+
+  #img-profile:hover &-hover{
+    display: block;
+  }
+  #img-profile:hover &-front{
+    display: none;
+  }
+}
+
+
+/************ Mobile *************/
+@media only screen and (max-width: 600px) {
+  #img-col {
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .fa {
   font-size: 2em;
 }
@@ -12,6 +13,62 @@
 }
 .fa-github:hover {
   color: #7d7d7d;
+}
+
+/************ Overall *************/
+.badge {
+  font-weight: normal;
+  padding: 3px 10px;
+}
+.badge-info {
+  background-color: #61b0bd;
+}
+
+/*********** About Page ***********/
+#img-col {
+  align-items: left;
+  justify-content: center;
+}
+
+#img-profile {
+  width: fit-content;
+  margin-left: 5em;
+}
+#img-profile img  {
+  width: 250px;
+}
+
+.img-profile-front {
+  position: unset;
+  display: block;
+}
+.img-profile-hover {
+  position: unset;
+  display: contents;
+}
+#img-profile:hover .img-profile-hover {
+  display: block;
+}
+#img-profile:hover .img-profile-front {
+  display: none;
+}
+
+/************ Mobile *************/
+@media only screen and (max-width: 600px) {
+  #img-col {
+    align-items: center;
+    justify-content: center;
+  }
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 /*# sourceMappingURL=main.css.map */
