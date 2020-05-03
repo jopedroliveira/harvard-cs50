@@ -18,6 +18,7 @@ The site itself is organized in 4 HTML files:
 
 
 The project itself is organized according the following tree:
+```
 .
 ├── README.md                   *README FILE*
 ├── docs                        *DOCS DIR*
@@ -40,3 +41,4 @@ The project itself is organized according the following tree:
     │   └── profile.png         *IMAGE PROFILE FILE*
     └── js                      *JAVASCRIPT DIR (extra)*
         └── particles_config.js *JAVASCRIPT FILE (extra)*
+```
